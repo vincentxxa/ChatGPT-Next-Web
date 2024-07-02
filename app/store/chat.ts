@@ -92,7 +92,7 @@ function getSummarizeModel(currentModel: string) {
   if (currentModel.startsWith("gemini-pro")) {
     return GEMINI_SUMMARIZE_MODEL;
   }
-  return currentModel;
+  return "claude-3-haiku-20240307";
 }
 
 function countMessages(msgs: ChatMessage[]) {
